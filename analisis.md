@@ -1,0 +1,8 @@
+| Aspek | Web | Desktop | Mobile |
+|-------|-----|---------|--------|
+| **Arsitektur** | Client-server; frontend berjalan di browser, logika bisnis dan data di server (REST API / WebSocket) | Aplikasi standalone yang terinstal di OS lokal; bisa berdiri sendiri atau terhubung ke server | Aplikasi terinstal di perangkat (native atau cross-platform), umumnya terhubung ke backend via API |
+| **Bahasa Utama** | HTML, CSS, JavaScript/TypeScript (frontend); PHP, Node.js, Python, Java (backend) | C++, C#, Java, Python, Electron (JavaScript) | Kotlin/Java (Android), Swift (iOS), Dart (Flutter), JavaScript (React Native) |
+| **Distribusi** | Diakses lewat URL di browser, tanpa instalasi; update langsung di server | Installer (.exe, .dmg, .deb) lewat website resmi atau toko aplikasi seperti Microsoft Store | Google Play Store dan Apple App Store; update lewat toko aplikasi |
+| **Keunggulan** | Lintas platform, tanpa instalasi, update terpusat dan instan, mudah diakses dari mana saja | Performa tinggi, akses penuh ke sumber daya sistem (file, hardware), bisa offline | Akses fitur perangkat (kamera, GPS, sensor, notifikasi push), portabel, pengalaman pengguna yang optimal |
+| **Keterbatasan** | Bergantung pada koneksi internet dan browser, akses hardware terbatas, performa di bawah aplikasi native | Harus diinstal dan diperbarui per perangkat, bergantung pada sistem operasi, distribusi lebih rumit | Biaya dan proses review toko aplikasi, fragmentasi perangkat/OS, pengembangan terpisah untuk tiap OS (jika native) |
+| **Contoh Aplikasi** | Gmail, Google Docs, Tokopedia (web), Trello | Microsoft Word, Visual Studio Code, Adobe Photoshop, Spotify Desktop | WhatsApp, Gojek, Instagram, Mobile Legends |
